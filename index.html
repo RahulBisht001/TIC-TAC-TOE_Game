@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>MyTicTacToe.com</title>
+		<script
+			src="https://kit.fontawesome.com/ea26e84072.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="CSS/style.css" />
+	</head>
+	<body>
+		<!-- Building a Tic Tac Toe Game -->
+		<div class="title">
+			<h2>MyTicTacToe.com</h2>
+		</div>
+		<!-- Game Container  -->
+
+		<!-- <i  value="1" class="fa-solid fa-x"></i> -->
+		<!-- <i data-value = "1" class="fa-regular fa-circle"></i> -->
+
+		<div class="gameContainer">
+			<div class="container">
+				<div  class="box bt-0 bl-0">
+					<span id="a" class="boxtext"> </span>
+				</div>
+				<div class="box bt-0">
+					<span class="boxtext"> </span>
+				</div>
+				<div class="box bt-0 br-0">
+					<span class="boxtext"></span>
+				</div>
+				<div class="box bl-0">
+					<span class="boxtext"></span>
+				</div>
+				<div class="box">
+					<span class="boxtext"></span>
+				</div>
+				<div class="box br-0">
+					<span class="boxtext"></span>
+				</div>
+				<div class="box bl-0 bb-0">
+					<span class="boxtext"></span>
+				</div>
+				<div class="box bb-0">
+					<span class="boxtext"></span>
+				</div>
+				<div class="box br-0 bb-0">
+					<span class="boxtext"></span>
+				</div>
+			</div>
+			<div class="gameInfo">
+				<h1>Rahul's Tic Tac Toe</h1>
+				<div>
+					<span class="info">Turn for X</span>
+					<button id="reset" onclick="gameReset()">
+						RESET
+					</button>
+				</div>
+				<p id="gameOverText"></p>
+			</div>
+		</div>
+
+		<script src="App/App.js"></script>
+	</body>
+</html>
